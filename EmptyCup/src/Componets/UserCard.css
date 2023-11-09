@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+
+.User-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    font-family: 'Chivo', sans-serif;
+}
+
+
+.User-box .rectangle {
+    /* background-color: #fffcf2; */
+    border-color: #FFFCF2;
+    border-radius: 20px;
+    border-top-style: solid;
+    border-top-width: 0.25px;
+    width:88vw;
+    height: 58vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Left-Side-Element{
+    width: 60%;
+    padding-left: 7%;
+    margin-top: -5vh;
+}
+
+.Pro-heading{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.para{
+    margin-top: 0;
+}
+
+.Stars{
+    margin-top: 1vh;
+}
+.Stars img{
+    margin-bottom: 4vh;
+}
+.Numbers{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 4vh;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.FiftySeven, .eight, .dollar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 8vw;
+}
+
+.mob-number{
+    margin-top: 5vh;
+}
+
+.Right-Side-Element{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Line-main{
+    /* background: #000; */
+    height: 50vh;
+    width: 1vw;
+    margin-right: 10vw;
+}
+.line{
+    height:45vh;
+    margin-top: 2.1vh;
+}
+
+.User-frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 45vh;
+    margin-top: -2vh;
+    /* background: #000; */
+    margin-right: 3vw;
+}
+
+.User-Detail, .User-hide, .User-Shortlisted, .User-Report{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 6.5vh;
+    width: auto;
+}
+
+.User-Detail img{
+    width: 3vw;
+
+}
+ .eye-slash{
+    width: 2vw;
+
+}
+.Svector{
+    width: 2vw;
+}
+.Rgroup{
+    width: 3vw;
+}
+
+.para{
+    width: 30vw;
+}
+
+@media screen and (max-width:1000px) {
+    .User-Detail img{
+        width: 5vw;
+    }
+
+    .eye-slash{
+        width: 4vw;
+    }
+    .Svector{
+        width: 3vw;
+    }
+    .Rgroup{
+        width: 4vw;
+    }
+    .para{
+        /* font-size: small; */
+        width: auto;
+    }
+    .Left-Side-Element{
+        margin-top: -4vh;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .Numbers{
+        font-size: small;
+        }
+        .line{
+            margin-left: 5vw;
+        }
+}
+@media screen and (max-width:600px) {
+    .Pro-heading{
+        font-size: larger;
+    }
+    .para{ 
+        font-size: small;
+        width: auto;
+    }
+    .Stars img{
+        width: 4vw;
+    }
+    .Right-Side-Element{
+        justify-content: space-around;
+        /* margin-left: 5vw; */
+    }
+    .line{
+        margin-left: 5vw;
+    }
+    .Left-Side-Element{
+        margin-top: -4vh;
+    }
+    .Detail, .Hide, .Shortlist, .Report{
+        font-size: x-small;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .Numbers{
+        font-size: small;
+    }
+    .Proj, .years, .price{
+        font-size: x-small;
+    }
+    .User-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+        font-family: 'Chivo', sans-serif;
+    }
+    .User-box .rectangle {
+        /* background-color: #fffcf2; */
+       
+        border-radius: 0px;
+        border-top-style: solid;
+        border-top-width: 0.25px;
+        width:100%;
+        height: 58vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Numbers{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 40vw;
+        font-size: large;
+    }
+    .para{
+        font-size: xx-small;
+        font-weight:600;
+    }
+ 
+    .arrow-right-short, .eye-slash, .Svector, .Rgroup{
+        margin-top: 13px;
+        width: 20px;
+    }
+    .User-Detail img{
+        width: 30px;
+    }
+    .mob-number{
+        font-weight: bolder;
+    }
+
+}
+
+
