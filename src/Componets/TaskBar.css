@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+
+.Task-main{
+    margin-top: 2vh;
+    height: 5vh;
+    font-family: 'Chivo', sans-serif;
+
+}
+
+.frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.First-Frame{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+}
+.Task-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Task-Gallary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Task-Gallary .Gallary{
+    margin-top: 10px;
+}
+.Task-Map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Task-Map .Map{
+    margin-top: 9px;
+}
+
+
+.Second-Frame{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20vw;
+}
+.Task-Shortlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Task-Shortlist .Shortlisted{
+    margin-top: 10px;
+}
+.Task-Sort{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Task-Sort .Sort{
+    margin-top: 10px;
+}
+
+.vector-2, .vector-4, .clipboard-heart, .vector{
+    width: 3vh;
+}
+.img{
+    width: 3.5vh;
+}
+.contact, .Gallary, .Map, .Shortlisted, .Sort{
+    font-size: small;
+}
+
+
+@media screen and (max-width: 680px){
+    .vector-2, .vector-4, .clipboard-heart, .vector{
+        width: 20px;
+    }
+    .img{
+        width: 25px;
+    }
+
+    .contact, .Gallary, .Map, .Shortlisted, .Sort{
+        font-size: small;
+    }
+    .First-Frame{
+        /* margin-left: 3vw; */
+        width: 50vw;
+        justify-content: space-evenly;
+    }
+
+
+    .Second-Frame{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .img{
+        width: 7vw;
+    }
+    .contact, .Gallary, .Map, .Shortlisted, .Sort{
+        font-size: xx-small;
+    }
+    
+}

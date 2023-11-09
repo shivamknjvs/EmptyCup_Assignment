@@ -1,0 +1,99 @@
+
+  
+  .box .nav-bar {
+    /* height: 159px; */
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+  
+  .box .group {
+    /* height: 2vh; */
+    left: 0;
+    /* position: absolute; */
+    top: 0;
+    width: auto;
+  }
+  
+  .box .logo-small {
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+  }
+  
+  .box .text-wrapper {
+    color: #706865;
+    font-family: "Chivo-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    height: 33px;
+    left: 54px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    white-space: nowrap;
+  }
+  
+  .box .navbar {
+    align-items: flex-end;
+    display: inline-flex;
+    gap: 30px;
+    left: 434px;
+    position: absolute;
+    top: 15px;
+  }
+  
+  .box .div {
+    color: #000000;
+    font-family: "Chivo-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .box .operator {
+    height: 40px;
+    left: 1236px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 40px;
+  }
+  
+  .box .group-2 {
+    height: 54px;
+    left: 1136px;
+    position: absolute;
+    top: 5px;
+    width: 40px;
+  }
+  
+  .box .man {
+    height: 40px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 40px;
+  }
+  
+  .box .arrow-down-sign-to {
+    height: 14px;
+    left: 13px;
+    object-fit: cover;
+    position: absolute;
+    top: 40px;
+    width: 14px;
+  }
+  
