@@ -60,6 +60,7 @@
     width: 8vw;
 }
 
+
 .mob-number{
     margin-top: 5vh;
 }
@@ -112,6 +113,9 @@
 .Svector{
     width: 2vw;
 }
+.Svector2{
+    width: 2vw;
+}
 .Rgroup{
     width: 3vw;
 }
@@ -130,6 +134,9 @@
     }
     .Svector{
         width: 3vw;
+    }
+    .Svector2{
+        width:3vw
     }
     .Rgroup{
         width: 4vw;
@@ -221,11 +228,15 @@
         margin-top: 13px;
         width: 20px;
     }
+    
     .User-Detail img{
         width: 30px;
     }
     .mob-number{
         font-weight: bolder;
+    }
+    .bookmark{
+        width: 21px;
     }
 
 }

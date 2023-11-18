@@ -6,14 +6,12 @@ import Map from "../public/Map.svg";
 import Shortlist from "../public/Shortlist.svg";
 import Sort from "../public/Sort.svg";
 
-const TaskBar = () => {
+const TaskBar = ({ handleShortlisted }) => {
   return (
     <div className="Task-main">
       <div className="Task-box">
         <div className="All-Task">
-          {/* <div className="div"></div> */}
           <div className="frame">
-          
             <div className="First-Frame">
               <div className="Task-contact">
                 <div className="Contact-Logo">
@@ -24,7 +22,6 @@ const TaskBar = () => {
               <div className="Task-Gallary">
                 <div className="Gallary-Logo">
                   <img className="vector-2" alt="Vector" src={Gallary} />
-                  {/* <img className="vector-3" alt="Vector" src="vector-3.svg" /> */}
                 </div>
                 <div className="Gallary">Gallery</div>
               </div>
@@ -34,7 +31,7 @@ const TaskBar = () => {
               </div>
             </div>
             <div className="Second-Frame">
-              <div className="Task-Shortlist">
+              <div className="Task-Shortlist" onClick={handleShortlisted}>
                 <img
                   className="clipboard-heart" alt="Clipboard heart" src={Shortlist} />
                 <div className="Shortlisted">Shortlisted</div>
@@ -50,4 +47,5 @@ const TaskBar = () => {
     </div>
   );
 };
+
 export default TaskBar;
